@@ -33,7 +33,7 @@ try:
 		print(__banner__)
 		print(" [+] Account to bow : {}".format(userid))
 		print(" [+] Loaded-code  : {}".format(len(open(passlist,"r").read().split("\n"))))
-		print(" [+] Cracking, please wait ...")
+		print(" [+] Cracking, please wait till i FUCKi'n Rain You ...")
 		for passwd in open(passlist,'r').readlines():
 			sys.stdout.write(u"\u001b[1000D[*] Raining {}".format(passwd.strip()))
 			sys.stdout.flush()
@@ -51,4 +51,4 @@ try:
 	else:
 		print("fbbrute: error: What The Fuck: No such file or directory")
 except KeyboardInterrupt:
-	print("fbbrute: error: Keyboard interrupt")
+	print("fbbrute: Keyboard interrupt + FUCK YOU")
